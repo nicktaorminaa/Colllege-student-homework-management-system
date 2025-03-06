@@ -1,0 +1,35 @@
+﻿  College Student Homework Management System.cpp
+C:\Users\Nicho\source\repos\College Student Homework Management System\Homework.h(21,11): error C3646: 'assignments': unknown override specifier
+C:\Users\Nicho\source\repos\College Student Homework Management System\Homework.h(21,22): error C2059: syntax error: '('
+C:\Users\Nicho\source\repos\College Student Homework Management System\Homework.h(21,144): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Users\Nicho\source\repos\College Student Homework Management System\Homework.h(51,12): error C3646: 'getCourse': unknown override specifier
+C:\Users\Nicho\source\repos\College Student Homework Management System\Homework.h(51,21): error C2059: syntax error: '('
+C:\Users\Nicho\source\repos\College Student Homework Management System\Homework.h(51,30): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Users\Nicho\source\repos\College Student Homework Management System\HomeworkManager.h(28,1): error C2661: 'Assignment::Assignment': no overloaded function takes 7 arguments
+C:\Users\Nicho\source\repos\College Student Homework Management System\HomeworkManager.h(43,34): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Nicho\source\repos\College Student Homework Management System\HomeworkManager.h(44,27): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Nicho\source\repos\College Student Homework Management System\HomeworkManager.h(66,22): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Nicho\source\repos\College Student Homework Management System\HomeworkManager.h(70,60): error C2039: 'getCourse': is not a member of 'Assignment'
+C:\Users\Nicho\source\repos\College Student Homework Management System\Homework.h(10): message : see declaration of 'Assignment'
+C:\Users\Nicho\source\repos\College Student Homework Management System\HomeworkManager.h(55,28): error C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Nicho\source\repos\College Student Homework Management System\HomeworkManager.h(88,1): error C2660: 'HomeworkManager::displayAllAssignments': function does not take 1 arguments
+C:\Users\Nicho\source\repos\College Student Homework Management System\HomeworkManager.h(117,10): message : see declaration of 'HomeworkManager::displayAllAssignments'
+C:\Users\Nicho\source\repos\College Student Homework Management System\HomeworkManager.h(127,50): error C2039: 'getCourse': is not a member of 'Assignment'
+C:\Users\Nicho\source\repos\College Student Homework Management System\Homework.h(10): message : see declaration of 'Assignment'
+C:\Users\Nicho\source\repos\College Student Homework Management System\HomeworkManager.h(128,1): error C2662: 'std::string Assignment::getDueDate(void)': cannot convert 'this' pointer from 'const Assignment' to 'Assignment &'
+C:\Users\Nicho\source\repos\College Student Homework Management System\HomeworkManager.h(128,41): message : Conversion loses qualifiers
+C:\Users\Nicho\source\repos\College Student Homework Management System\Homework.h(59,17): message : see declaration of 'Assignment::getDueDate'
+C:\Users\Nicho\source\repos\College Student Homework Management System\HomeworkManager.h(129,1): error C2662: 'std::string Assignment::getDueTime(void)': cannot convert 'this' pointer from 'const Assignment' to 'Assignment &'
+C:\Users\Nicho\source\repos\College Student Homework Management System\HomeworkManager.h(129,41): message : Conversion loses qualifiers
+C:\Users\Nicho\source\repos\College Student Homework Management System\Homework.h(67,17): message : see declaration of 'Assignment::getDueTime'
+C:\Users\Nicho\source\repos\College Student Homework Management System\HomeworkManager.h(130,1): error C2662: 'int Assignment::getEstimatedTime(void)': cannot convert 'this' pointer from 'const Assignment' to 'Assignment &'
+C:\Users\Nicho\source\repos\College Student Homework Management System\HomeworkManager.h(130,47): message : Conversion loses qualifiers
+C:\Users\Nicho\source\repos\College Student Homework Management System\Homework.h(75,9): message : see declaration of 'Assignment::getEstimatedTime'
+C:\Users\Nicho\source\repos\College Student Homework Management System\HomeworkManager.h(131,1): error C2662: 'float Assignment::getWeight(void)': cannot convert 'this' pointer from 'const Assignment' to 'Assignment &'
+C:\Users\Nicho\source\repos\College Student Homework Management System\HomeworkManager.h(131,39): message : Conversion loses qualifiers
+C:\Users\Nicho\source\repos\College Student Homework Management System\Homework.h(83,11): message : see declaration of 'Assignment::getWeight'
+C:\Users\Nicho\source\repos\College Student Homework Management System\HomeworkManager.h(143,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Nicho\source\repos\College Student Homework Management System\College Student Homework Management System.cpp(23,49): error C2660: 'HomeworkManager::loadAssignmentsFromFile': function does not take 1 arguments
+C:\Users\Nicho\source\repos\College Student Homework Management System\HomeworkManager.h(156,10): message : see declaration of 'HomeworkManager::loadAssignmentsFromFile'
+C:\Users\Nicho\source\repos\College Student Homework Management System\College Student Homework Management System.cpp(44,37): error C2039: 'getCourse': is not a member of 'Assignment'
+C:\Users\Nicho\source\repos\College Student Homework Management System\Homework.h(10): message : see declaration of 'Assignment'
